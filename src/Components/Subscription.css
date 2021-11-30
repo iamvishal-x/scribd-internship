@@ -1,0 +1,49 @@
+.subscription {
+  /* margin: 40px 40px 60px 40px; */
+  padding: 60px 40px;
+}
+.subscription__heading {
+  text-align: center;
+  font-size: 37px;
+  font-weight: 500;
+}
+.subscription__list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  align-items: center;
+  margin: 30px 200px;
+}
+.subscription__list li {
+  text-align: center;
+  color: darkslategray;
+}
+.subscription__list img {
+  height: 50px;
+
+  /* opacity: 80%; */
+  width: 50px;
+}
+.quote {
+  padding: 70px 40px;
+  text-align: center;
+  background-color: #fafbfd;
+}
+.quote__text {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 500;
+  padding-bottom: 15px;
+  color: darkslategray;
+}
+.quote__img {
+  margin-right: 15px;
+  height: 40px;
+  /* opacity: 40%; */
+  background-size: contain;
+}
+.quote__footer-cite {
+  font-style: normal;
+  font-size: 17px;
+  color: darkslategray;
+}

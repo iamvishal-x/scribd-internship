@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  background-color: #f0f2f9;
+  padding: 40px;
+  justify-content: space-between;
+}
+.footer__content {
+  display: flex;
+}
+.footer__heading {
+  padding-bottom: 15px;
+  font-weight: 500;
+}
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  color: #303140;
+}
+.footer li {
+  font-size: 14px;
+  padding-bottom: 15px;
+  color: #303140;
+}
+
+.downloads img {
+  max-width: 100px;
+}

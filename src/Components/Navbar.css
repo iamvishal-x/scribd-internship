@@ -1,0 +1,33 @@
+.nav {
+  background-color: #00293f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.nav-logo {
+  margin: 15px;
+  height: 25px;
+}
+.nav__btns {
+  margin-right: 10px;
+}
+.nav__btns-a {
+  padding: 15px 30px;
+  margin-right: 10px;
+  background-color: #1e7b85;
+  border: 1px solid #1e7b85;
+}
+.nav__btns-b {
+  padding: 15px 30px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+.nav__btns button {
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}

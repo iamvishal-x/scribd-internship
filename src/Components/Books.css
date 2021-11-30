@@ -1,0 +1,46 @@
+.books {
+  background-color: #5a1d41;
+  text-align: center;
+  padding: 60px;
+}
+.books__heading {
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 20px;
+}
+.books__ul {
+  list-style-type: none;
+  max-width: 90%;
+}
+.books__ul li {
+  line-height: 2;
+  padding: 5px;
+  cursor: pointer;
+}
+.books__ul img {
+  box-shadow: 1px 2px 4px;
+  width: 150px;
+  height: 160px;
+}
+.books__btn {
+  margin-top: 10px;
+  padding: 15px 30px;
+  margin-right: 10px;
+  background-color: #1e7b85;
+  border: 1px solid #1e7b85;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.books__para {
+  margin-top: 15px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+li {
+  display: inline-block;
+}

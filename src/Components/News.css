@@ -1,0 +1,19 @@
+.news__ul {
+  display: flex;
+  justify-content: space-between;
+  width: 77%;
+  margin: auto;
+  /* margin-bottom: 50px; */
+  padding: 20px 0px 35px;
+}
+.news__heading {
+  text-align: center;
+  margin: 10px 0px 5px;
+  font-size: 12px;
+  font-weight: normal;
+  color: grey;
+}
+.news__ul img {
+  max-height: 50px;
+  max-width: 90px;
+}

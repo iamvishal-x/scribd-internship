@@ -17,7 +17,6 @@ function App() {
       <Footer />
       {/* Cover */}
       {/* Body */}
-      {/* test */}
     </div>
   );
 }

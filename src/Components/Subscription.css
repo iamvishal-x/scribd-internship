@@ -17,6 +17,7 @@
 .subscription__list li {
   text-align: center;
   color: darkslategray;
+  width: 100%;
 }
 .subscription__list img {
   height: 50px;
@@ -46,4 +47,35 @@
   font-style: normal;
   font-size: 17px;
   color: darkslategray;
+}
+/* For Tablet */
+@media only screen and (min-width: 426px) and (max-width: 750px){
+  .subscription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscription__list{
+display: flex;
+flex-direction: column;
+justify-content: center;
+  }
+}
+
+
+/* For Mobile */
+@media only screen and (max-width: 425px) {
+  .subscription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscription__list{
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* margin: 0px; */
+  }
+
+
 }

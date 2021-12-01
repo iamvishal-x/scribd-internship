@@ -12,12 +12,14 @@
   justify-content: space-evenly;
   list-style-type: none;
   align-items: center;
-  margin: 30px 200px;
+  /* margin: 30px 200px; */
+  /* flex-flow: row wrap; */
 }
 .subscription__list li {
   text-align: center;
   color: darkslategray;
-  width: 100%;
+  width: 100px;
+
 }
 .subscription__list img {
   height: 50px;
@@ -56,10 +58,17 @@
     align-items: center;
   }
   .subscription__list{
-display: flex;
-flex-direction: column;
-justify-content: center;
-  }
+    display: flex;
+    
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+      }
+      .subscription__list li{
+        width: 100px;
+      }
+  
 }
 
 
@@ -72,9 +81,14 @@ justify-content: center;
   }
   .subscription__list{
 display: flex;
-flex-direction: column;
+
+flex-flow: row wrap;
 justify-content: center;
-/* margin: 0px; */
+padding: 0px;
+margin: 0px;
+  }
+  .subscription__list li{
+    width: 100px;
   }
 
 

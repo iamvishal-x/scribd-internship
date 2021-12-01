@@ -52,10 +52,12 @@ li {
     align-items: center;
     justify-content: center;
   }
-  .books ul{
+  /* .books ul{
     display: flex;
     overflow: scroll;
-  }
+    flex-flow: row wrap;
+  } */
+ 
 }
 
 /* For Mobile */
